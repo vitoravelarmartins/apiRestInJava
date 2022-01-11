@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS usuario;
+CREATE TABLE usuario (codigo SERIAL PRIMARY KEY, nome VARCHAR(50), login VARCHAR(10), senha VARCHAR(10))
